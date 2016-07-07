@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.example.zhao.top_school.View.PullToRefreshListView
+        android:id="@+id/pull_refresh_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/my_listview"
+            android:divider="#ffdddddd"
+            android:dividerHeight="2dp"
+            android:fadingEdge="none"
+            android:scrollbars="none"></ListView>
+    </com.example.zhao.top_school.View.PullToRefreshListView>
+</LinearLayout>

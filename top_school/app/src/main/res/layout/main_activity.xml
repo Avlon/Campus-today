@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/main_head_bacground"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="今日校园"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            />
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/hor_title_layout"
+        android:background="@color/scorwBg">
+        <ImageView
+            android:id="@+id/hor_left_view"
+            android:layout_width="10dp"
+            android:visibility="visible"
+            android:background="@drawable/channel_leftblock"
+            android:layout_height="match_parent" />
+        <com.example.zhao.top_school.View.NaviHorizontalScrollView
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:id="@+id/myHorView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+            <LinearLayout
+                android:id="@+id/hor_lin"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent">
+            </LinearLayout>
+        </com.example.zhao.top_school.View.NaviHorizontalScrollView>
+        <ImageView
+            android:id="@+id/hor_right_view"
+            android:layout_width="10dp"
+            android:visibility="visible"
+            android:background="@drawable/channel_rightblock"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/break_line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+    <android.support.v4.view.ViewPager
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/pagerview">
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

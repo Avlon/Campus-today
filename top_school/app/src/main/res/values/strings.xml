@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">今日校园</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="电信">
+        <item>133</item>
+        <item>153</item>
+        <item>177</item>
+        <item>180</item>
+        <item>181</item>
+        <item>189</item>
+    </string-array>
+    <string-array name="移动">
+        <item>134</item>
+        <item>135</item>
+        <item>136</item>
+        <item>137</item>
+        <item>138</item>
+        <item>139</item>
+        <item>147</item>
+        <item>150</item>
+        <item>151</item>
+        <item>152</item>
+        <item>157</item>
+        <item>158</item>
+        <item>159</item>
+        <item>178</item>
+        <item>182</item>
+        <item>183</item>
+        <item>184</item>
+        <item>187</item>
+        <item>188</item>
+    </string-array>
+    <string-array name="联通">
+        <item>130</item>
+        <item>131</item>
+        <item>132</item>
+        <item>155</item>
+        <item>156</item>
+        <item>185</item>
+        <item>186</item>
+        <item>145</item>
+        <item>176</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="refresh_load">正在刷新...</string>
+    <string name="refresh_up_to_load">释放立即刷新</string>
+    <string name="refresh_pull_to_load">下拉刷新</string>
+    <string name="refresh_push_load">更多记录</string>
+</resources>
